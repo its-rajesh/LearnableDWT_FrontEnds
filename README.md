@@ -1,6 +1,6 @@
 # LDWT Interference Reduction
 
-This repository contains the code and lightweight reproducibility artifacts for the TASLP LDWT interference-reduction experiments.
+This repository contains the code and lightweight reproducibility artifacts for the LDWT interference-reduction experiments.
 
 The task is multichannel musical bleed reduction. Given three microphone mixtures, the model estimates the dominant target source at each microphone. The main model is a U-Net separator with a learnable discrete wavelet transform (LDWT) front end.
 
