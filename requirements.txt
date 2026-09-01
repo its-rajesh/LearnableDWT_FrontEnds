@@ -1,0 +1,14 @@
+numpy
+scipy
+pandas
+matplotlib
+soundfile
+librosa
+pywavelets
+tensorflow
+keras
+scikit-learn
+tqdm
+torch
+torchaudio
+demucs

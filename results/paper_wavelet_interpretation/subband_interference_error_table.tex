@@ -1,0 +1,25 @@
+\begin{table}[t]
+\centering
+\caption{Subband interference and residual-error energy on the held-out m9 dB test set.}
+\label{tab:subband_interference_error}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lccccc}
+\toprule
+Frontend & Subband & Input SIR & Output target/error & Target energy % & Error energy % \\
+\midrule
+LDWT & A2 & 6.03 & 12.66 & 59.39 & 51.21 \\
+LDWT & D2 & 6.11 & 12.22 & 39.83 & 37.94 \\
+LDWT & D1 & 6.10 & 0.57 & 0.78 & 10.85 \\
+Fixed-db4 & A2 & 6.05 & 7.13 & 94.78 & 77.93 \\
+Fixed-db4 & D2 & 5.99 & 0.23 & 3.97 & 16.00 \\
+Fixed-db4 & D1 & 6.05 & -0.60 & 1.25 & 6.07 \\
+Fixed-db8 & A2 & 6.05 & 7.68 & 94.92 & 76.76 \\
+Fixed-db8 & D2 & 5.97 & 0.26 & 3.88 & 17.34 \\
+Fixed-db8 & D1 & 6.06 & -0.17 & 1.19 & 5.89 \\
+Fixed-coif1 & A2 & 6.05 & 3.01 & 94.29 & 89.21 \\
+Fixed-coif1 & D2 & 6.01 & 0.05 & 4.34 & 8.12 \\
+Fixed-coif1 & D1 & 6.04 & -0.10 & 1.38 & 2.67 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

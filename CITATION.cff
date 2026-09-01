@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated TASLP LDWT interference-reduction paper."
+title: "Learnable DWT for Multichannel Music Interference Reduction"
+authors:
+  - family-names: "Ramesh"
+    given-names: "Rajesh"
+type: software

@@ -1,0 +1,21 @@
+{
+  "x_mix": "/home/rrame12/Desktop/Research/DWT_IR/Edgecase_active_matched/Xedge_m40db.npy",
+  "y_true": "/home/rrame12/Desktop/Research/DWT_IR/Edgecase_active_matched/Yedge_m40db.npy",
+  "y_pred": "/home/rrame12/Desktop/Research/DWT_IR/Edgecase_active_matched/predictions/Ypred_edge_m40db.npy",
+  "sr": 22050,
+  "T": -1,
+  "max_items": -1,
+  "std_align": true,
+  "std_max_lag": 22050,
+  "std_use_envelope": true,
+  "permute_pred": true,
+  "mimo_K": 512,
+  "mimo_lam": 0.001,
+  "max_delay_samples": 44100,
+  "use_envelope": true,
+  "stem_names": [
+    "Vocal",
+    "Bass",
+    "Drums"
+  ]
+}

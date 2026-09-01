@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+env/
+*.conda
+
+# Large generated artifacts
+*.npy
+*.npz
+*.wav
+*.flac
+*.mp3
+*.mp4
+*.keras
+*.h5
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.tfevents*
+
+# Experiment outputs
+runs*/
+logs/
+markers/
+tb/
+wandb/
+test_outputs*/
+predictions/
+synth_dataset/
+
+# Local datasets and machine-specific paths
+data/
+datasets/
+MUSDB18HQ/
+musdb18hq/
+measured_rir_*_synth_full/
+measured_rir_*_synth_smoke/
+
+# Notebooks and editor state
+.ipynb_checkpoints/
+*.ipynb
+.DS_Store

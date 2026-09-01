@@ -1,0 +1,21 @@
+{
+  "x_mix": "/home/rrame12/Desktop/Research/DWT_IR/runs_finetune_recorded/20260804_080758/test_outputs_iprdwt_rerecorded/Xtest_crops.npy",
+  "y_true": "/home/rrame12/Desktop/Research/DWT_IR/runs_finetune_recorded/20260804_080758/test_outputs_iprdwt_rerecorded/Ytest_crops.npy",
+  "y_pred": "/home/rrame12/Desktop/Research/DWT_IR/runs_finetune_recorded/20260804_080758/test_outputs_iprdwt_rerecorded/Ypred_test_crops.npy",
+  "sr": 22050,
+  "T": -1,
+  "max_items": -1,
+  "std_align": true,
+  "std_max_lag": 22050,
+  "std_use_envelope": true,
+  "permute_pred": false,
+  "mimo_K": 512,
+  "mimo_lam": 0.001,
+  "max_delay_samples": 44100,
+  "use_envelope": true,
+  "stem_names": [
+    "Vocal",
+    "Bass",
+    "Drums"
+  ]
+}
