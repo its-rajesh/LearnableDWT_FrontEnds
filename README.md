@@ -107,7 +107,3 @@ For the full measured-RIR table pipeline, see:
 ```text
 run_table2_corrected_measured_rir.sh
 ```
-
-## Notes
-
-The scripts contain local-path defaults from the original experiment machine. For another system, pass explicit dataset/checkpoint/output paths rather than relying on defaults.
